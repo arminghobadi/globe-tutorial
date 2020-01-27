@@ -1,12 +1,10 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
-import { globe } from './globe'
 
 export class App extends React.Component {
 
   componentDidMount() {
-    globe.init()
+    const globe = require('./globe')
   }
 
   render() {
